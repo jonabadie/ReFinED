@@ -1,7 +1,7 @@
 # ReFinED
 ## Quickstart
 ```commandline
-pip install https://github.com/amazon-science/ReFinED/archive/refs/tags/V1.zip
+pip install https://github.com/jonabadie/ReFinED/archive/refs/tags/V1.zip
 ```
 ```python
 from refined.inference.processor import Refined
@@ -87,7 +87,7 @@ refined = Refined.from_pretrained(...)
 ### Importing ReFinED as a library
 To import the ReFinED model into your existing code run the commands below (note that the conda commands are only needed on a Mac):
 ```commandline
-pip install https://github.com/amazon-science/ReFinED/archive/refs/tags/V1.zip
+pip install https://github.com/jonabadie/ReFinED/archive/refs/tags/V1.zip
 ```
 
 Alternatively, if the command above does not work, try the commands below which will install some dependencies using conda.
