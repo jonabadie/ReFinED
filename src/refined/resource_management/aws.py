@@ -46,7 +46,7 @@ class S3Manager:
         """
         s3_obj = self._s3.Object(s3_bucket, s3_key)
         s3_obj_size = s3_obj.content_length
-        s3_last_modified = int(s3_obj.last_modified.strftime("%s"))
+        s3_last_modified = int(s3_obj.last_modified.strftime("%S"))
         if (
             os.path.isfile(output_file_path)
             and int(os.stat(output_file_path).st_mtime) > s3_last_modified
