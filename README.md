@@ -1,4 +1,6 @@
 # ReFinED
+Fix bug on windows with strftime("%s). Changed %s to %S.
+
 ## Quickstart
 ```commandline
 pip install https://github.com/jonabadie/ReFinED/archive/refs/tags/V1.zip
